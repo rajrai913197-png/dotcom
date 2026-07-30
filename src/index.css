@@ -51,7 +51,7 @@ color: black;
     align-items: start;
     height: 300px;
     width: 150px;
-    background-color: #0606060e;
+    background-color: #0606063b;
      font-family: sans-serif;
     font-weight: 600;
     font-size: 13px;
@@ -60,7 +60,7 @@ color: black;
     left: -150px;
     transition: left 0.4s ease-in-out;
     gap: 15px;
-    border: 0px 10px 10px 0px;
+   border-radius: 0px 5px 5px 0px;
    
 }
 
