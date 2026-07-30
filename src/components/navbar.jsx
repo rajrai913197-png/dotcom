@@ -29,8 +29,8 @@ const Navbar = ()=>{
   <Link to="/men">MEN</Link>
   <Link to="/women">WOMEN</Link>
   <Link to="/kids">KIDS</Link>
-  <Link to="/cart">CART</Link>
-  <Link to="/wishlist">WISHLIST</Link>
+  <Link to="/cart"><i class="fa-solid fa-cart-shopping"></i></Link>
+  <Link to="/wishlist"><i class="fa-solid fa-heart"></i></Link>
   <Link to="/login" id="login">
     <i className="fa-solid fa-user"></i>
   </Link>
