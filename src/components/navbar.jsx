@@ -1,8 +1,9 @@
 import{Link} from 'react-router-dom'
 import logo from '../assets/logo.webp'
+import { useState } from 'react'
 
 const Navbar = ()=>{
-    // const[homeBurger,setHomeBurger]=useState(false)
+   const[menu,setMenu]=useState(false)
     return(
         <>
         <nav className='navbar'>
@@ -20,8 +21,22 @@ const Navbar = ()=>{
          <Link to="/wishlist">WISHLIST</Link>
          <Link to='/login' id='login'><i class="fa-solid fa-user"></i></Link>
         </div>
-         <i class="fa-solid fa-bars" id='burger'></i>
+         <i class="fa-solid fa-bars" id='burger' onClick={()=> setMenu(!menu)}></i>
         </nav>
+        {
+            menu &&(
+         <div  className='implinks'>
+        <Link to="/">HOME</Link>
+         <Link to='/products'>PRODUCT</Link>
+         <Link to='/men'>MEN</Link>
+         <Link to='/women'>WOMEN</Link>
+         <Link to='/kids'>KIDS</Link>
+         <Link to='/cart'>CART</Link>
+         <Link to="/wishlist">WISHLIST</Link>
+         <Link to='/login' id='login'><i class="fa-solid fa-user"></i></Link>
+        </div>
+            )
+        }
         </>
     )
 }
