@@ -49,15 +49,26 @@ color: black;
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    height: 200px;
-    width: 130px;
-    background-color: #f8f9fa;
+    height: 300px;
+    width: 150px;
+    background-color: #0606060e;
      font-family: sans-serif;
     font-weight: 600;
     font-size: 13px;
     padding-left: 10px;
     position: absolute;
+    left: -150px;
+    transition: left 0.4s ease-in-out;
+    gap: 15px;
+    border: 0px 10px 10px 0px;
    
+}
+
+
+.implinks.open {
+
+  left: 0;         
+
 }
 
 .implinks a{
