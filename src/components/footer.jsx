@@ -6,7 +6,7 @@ const Footer = ()=>{
         <>
          <footer className='main-footer'>
             <section className='contact-links'>
-              <h3>DOTCOME</h3>
+              <h3>DOT-COM</h3>
              <h4>STAY UP TO DATE</h4>
              <div className='links-connect'>
                 <a href="https://www.instagram.com/raa.j_kalar?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
