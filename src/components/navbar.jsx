@@ -9,7 +9,7 @@ const Navbar = ()=>{
         <nav className='navbar'>
         <img src={logo} alt="logo" className='logo' />
         <div> 
-             <button id='search'>SEARCH</button>
+             <button id='search'>SEARCH<i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
         <div className='navLinks'>
         <Link to="/">HOME</Link>
@@ -24,6 +24,7 @@ const Navbar = ()=>{
          <i class="fa-solid fa-bars" id='burger' onClick={()=> setMenu(!menu)}></i>
         </nav>
         <div className={`implinks ${menu ? "open" : ""}`}>
+  <button onClick={()=> setMenu(false) } id='wrong-icon'><i class="fa-solid fa-circle-xmark"></i></button>
   <Link to="/">HOME</Link>
   <Link to="/products">PRODUCT</Link>
   <Link to="/men">MEN</Link>
