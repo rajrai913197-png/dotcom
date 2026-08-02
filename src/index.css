@@ -99,7 +99,30 @@ color: black;
         width: 150px !important;
         margin-right: 20px;
        }
-     
+       .main-footer{
+    height: auto;
+    width: 100%;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center !important;
+
+}
+.contact-links{
+    padding-right:  150px !important;
+    height: auto !important;
+}
+.imp-things{
+     padding-right:  140px !important;
+    height: auto !important;
+}
+.site-rules{
+      padding-right:  105px !important;
+    height: auto !important;
+}
+     .about-page{
+         padding-right:  170px !important;
+    height: auto !important;
+     }
 }
 #wrong-icon{
     border: none;
@@ -109,4 +132,104 @@ color: black;
     top: 17px;
     font-size: 17px;
     
+}
+.logo-here{
+     height: 75px;
+     width: 100px;
+     object-fit: cover;
+}
+.main-footer{
+    height: auto;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+}
+.contact-links{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 120px;
+
+    justify-content: center;
+}
+.contact-links h3{
+   font-family: sans-serif;
+font-weight: 600;
+color: black;
+font-size: x-small;
+}
+.contact-links h4{
+     font-family: sans-serif;
+font-weight: 600;
+color: black;
+font-size: small;
+}
+.links-connect i{
+   color: black;
+}
+.contact-links button{
+    height: 30px;
+    width: 150px;
+    font-family: sans-serif;
+font-weight: 600;
+color: black;
+font-size: small;
+}
+.imp-things{
+    display: flex;
+   flex-direction: column;
+   gap: 5px;
+  height: 250px;
+  justify-content: center;
+}
+.imp-things a{
+  text-transform: uppercase;
+   text-decoration: none;
+  font-family: sans-serif;
+font-weight: 600;
+color: black;
+font-size:small;
+
+}
+.site-rules{
+     display: flex;
+   flex-direction: column;
+   gap: 5px;
+  height: 180px;
+  justify-content: center;
+}
+.site-rules a{
+    text-transform: uppercase;
+   text-decoration: none;
+  font-family: sans-serif;
+font-weight: 600;
+color: black;
+font-size:small;
+}
+.about-page{
+    display: flex;
+   flex-direction: column;
+   gap: 5px;
+  height: 180px;
+  justify-content: center;
+  height: 280px;
+}
+.about-page a{
+     text-transform: uppercase;
+   text-decoration: none;
+  font-family: sans-serif;
+font-weight: 600;
+color: black;
+font-size:small;
+}
+.about-page h4{
+     font-family: sans-serif;
+font-weight: 600;
+color: black;
+font-size: large;
+text-transform: uppercase;
 }
