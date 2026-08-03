@@ -23,6 +23,7 @@
     padding-right: 30px;
    background: #F7F1E8;
    height: 80px;
+    border-bottom: 1px solid #2d211c;
 }
 .navLinks{
     display: flex;
@@ -64,14 +65,14 @@ font-size: 15px;
     justify-content: center;
     align-items: start;
     height: 400px;
-    width: 250px;
-    background-color: #F8F9FA;
+    width: 320px;
+   background: #F5EFE6;
      font-family: sans-serif;
     font-weight: 700;
     font-size: 13px;
     padding-left: 45px;
     position: absolute;
-    left: -300px;
+    left: -320px;
     transition: left 0.4s ease-in-out;
     gap: 25px;
    border-radius: 0px 2px 2px 0px;
@@ -149,11 +150,11 @@ font-size: 15px;
 }
 #wrong-icon{
     border: none;
-    background-color: #F8F9FA ;
+   background: #F5EFE6;
    position: absolute;
-    padding-left: 170px;
-    top: 17px;
-    font-size: 17px;
+    padding-left: 190px;
+    top: 18px;
+    font-size: 19px;
     
 }
 
