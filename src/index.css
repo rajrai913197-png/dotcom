@@ -6,7 +6,7 @@
 .logo{
 
     font-family: "Cormorant Garamond", serif;
-    font-size: 23px;
+    font-size: 22px;
     font-weight: 700;
     letter-spacing: 3px;
     text-decoration: none;
@@ -35,7 +35,7 @@
 .navLinks a{
 text-decoration: none;
 font-family: sans-serif;
-font-weight: 400;
+font-weight: 700;
 color: #111111;
 font-size: 15px;
 }
@@ -67,7 +67,7 @@ font-size: 15px;
     width: 250px;
     background-color: #F8F9FA;
      font-family: sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 13px;
     padding-left: 45px;
     position: absolute;
@@ -182,7 +182,7 @@ font-size: 15px;
 .contact-links h3{
    font-family: sans-serif;
 font-weight: 700;
-color: #F5EFE6;
+color: #c1a958;
 font-size: x-small;
 font-size: 15px;
 }

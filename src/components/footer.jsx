@@ -18,14 +18,14 @@ const Footer = ()=>{
             </section>
             <section className='imp-things'>
              <a href="">contact us</a>
-            <a href="">promotons and sele</a>
+            <a href="">promotons and sale</a>
              <a href="">my account</a>
             <a href="">exchange and return</a>
             <a href="">privacy and policy</a>
              <a href="">term and conditions</a>
              <a href="">shoes</a>
              <a href="">running shoes</a>
-              <a href="">sitemap</a>
+              <a href="">site - map</a>
             </section>
             <section className='site-rules'>
              <a href="">FAQ</a>
@@ -48,7 +48,7 @@ const Footer = ()=>{
              <a href="">Sustainability</a>
              <a href="">Careers</a>
              <a href="">Store Locator</a>
-              <a href="">CARTYFY articles</a>
+              <a href="">PADUKA articles</a>
             </section>
          </footer>
         </>
