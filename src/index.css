@@ -138,8 +138,12 @@ font-size: 15px;
      }
     .contact-links button{
        height: 40px;
-       font-size: 13px !important;
+       font-size: 10px !important;
        display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 2px;
+      
      
     }
 }
