@@ -6,8 +6,8 @@ const Footer = ()=>{
         <>
          <footer className='main-footer'>
             <section className='contact-links'>
-              <h3>DOT-COM</h3>
-             <h4>STAY UP TO DATE</h4>
+              <h3>PADUKA</h3>
+             <h4>CONNECT WITH US -</h4>
              <div className='links-connect'>
                 <a href="https://www.instagram.com/raa.j_kalar?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://github.com/rajrai913197-png"><i class="fa-brands fa-github"></i></a>
