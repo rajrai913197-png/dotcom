@@ -30,10 +30,10 @@ const Navbar = ()=>{
   <Link to="/men">MEN</Link>
   <Link to="/women">WOMEN</Link>
   <Link to="/kids">KIDS</Link>
-  <Link to="/cart"><i class="fa-solid fa-cart-shopping"></i></Link>
-  <Link to="/wishlist"><i class="fa-solid fa-heart"></i></Link>
+  <Link to="/cart"><div className='btn-links'>CART<i class="fa-solid fa-arrow-right-long"></i></div></Link>
+  <Link to="/wishlist"><div className='btn-links'>WISHLIST<i class="fa-solid fa-arrow-right-long"></i></div></Link>
   <Link to="/login" id="login">
-    <i className="fa-solid fa-user"></i>
+   <div className='user-login'>LOGIN<i class="fa-solid fa-arrow-down-long"></i></div> 
   </Link>
 </div>
         </>

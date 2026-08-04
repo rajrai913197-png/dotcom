@@ -64,7 +64,7 @@ font-size: 15px;
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    height: 400px;
+    height: 430px;
     width: 320px;
    background: #F5EFE6;
      font-family: sans-serif;
@@ -189,7 +189,7 @@ font-size: 15px;
 }
 .contact-links h4{
      font-family: sans-serif;
-font-weight: 500;
+font-weight: 400;
 color: #F5EFE6;
 font-size: X-small;
 }
@@ -218,7 +218,7 @@ font-size: X-small;
   text-transform: uppercase;
    text-decoration: none;
   font-family: sans-serif;
-font-weight: 500;
+font-weight: 400;
 color: #F5EFE6;
 font-size:small;
 
@@ -234,7 +234,7 @@ font-size:small;
     text-transform: uppercase;
    text-decoration: none;
   font-family: sans-serif;
-font-weight: 500;
+font-weight: 400;
 color: #F5EFE6;
 font-size:small;
 }
@@ -250,7 +250,7 @@ font-size:small;
      text-transform: uppercase;
    text-decoration: none;
   font-family: sans-serif;
-font-weight: 500;
+font-weight: 400;
 color: #F5EFE6;
 font-size:small;
 }
@@ -266,4 +266,26 @@ text-transform: uppercase;
     gap: 10px;
     font-size: large;
     
+}
+.btn-links{
+    height: 35px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.user-login{
+    height: 35px;
+    width: 250px;
+    border: 2px solid #111111;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #2d211c;
+    color: #F5EFE6;
 }
