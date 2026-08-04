@@ -51,6 +51,11 @@ const Footer = ()=>{
               <a href="">PADUKA articles</a>
             </section>
          </footer>
+         <div id='ryt'>
+           <hr />
+           <p> © 2026 Paduka. All Rights Reserved.
+            Designed & Developed by @Raj Rai. </p>
+         </div>
         </>
     )
 }
