@@ -1,7 +1,12 @@
+import EmblaCarousel from "./EmblaCarousel"
+
 const Home =()=>{
+
     return(
         <>
-        <h6>this is home page</h6>
+       <div>
+      <EmblaCarousel  />
+    </div>
         </>
     )
 }
