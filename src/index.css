@@ -316,6 +316,7 @@ text-transform: uppercase;
   position: relative;
   overflow: hidden;
   background: #111;
+  border-bottom:1px solid rgb(212, 217, 144) ;
 
 }
 
@@ -537,4 +538,95 @@ text-transform: uppercase;
     bottom: 40px;
   }
 
+}
+
+.collection-div{
+   height: auto;
+  width: 100%;
+ background-color: #ece0c6;
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+.collection-posters-div{
+  display: flex;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+
+}
+.img-collection{
+  height: 300px;
+  width: 350px;
+  border-radius: 2px 0px 0px 0px;
+}
+.collection-div .our-text{
+  text-transform: uppercase;
+  font-size: x-large;
+  font-family: "Cormorant Garamond", serif;
+   color: #785c10;
+   letter-spacing: 1px;
+}
+
+
+.info-collection-div h1{
+     font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    color: #785c10;
+    padding-left: 10px;
+    letter-spacing: 1px;
+   
+  
+}
+.info-collection-div button{
+  height: 35px;
+  width: 160px;
+  border: none;
+ font-size: small;
+ font-weight: 700;
+ border-radius: 40px;
+ background-color: #111111;
+ color: #ece0c6;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 5px;
+ cursor: pointer;
+}
+.collections-poster-div{
+  background-color: #f5eedc;
+  border: 2px solid #785c10;
+  border-radius: 2px;
+
+}
+.info-collection-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+@media (max-width : 480px) {
+  .img-collection{
+  height: 200px;
+  width: 250px;
+  
+}
+.info-collection-div button{
+  width: 120px;
+  gap: 2px;
+}
+.info-collection-div{
+  gap: 10px;
+  padding: 0px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+ 
+}
+.info-collection-div h1{
+  font-size: large;
+}
 }
