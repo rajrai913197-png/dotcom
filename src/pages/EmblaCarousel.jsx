@@ -12,7 +12,7 @@ const slides = [
     eyebrow: "NEW SEASON • 2026",
     title: "Move Different.",
     description: "Engineered for movement. Designed for everyday style.",
-    button: "SHOP COLLECTION",
+    button: "SHOP NOW ",
   },
   {
     image: shoe2,
@@ -26,7 +26,7 @@ const slides = [
     eyebrow: "PERFORMANCE / STYLE",
     title: "Run Your Way.",
     description: "Lightweight performance that never compromises on style.",
-    button: "SHOP MEN",
+    button: "SHOP SHOES",
   },
   {
     image: shoe4,
@@ -45,7 +45,7 @@ const EmblaCarousel = () => {
     },
     [
       Autoplay({
-        delay: 4500,
+        delay: 3000,
         stopOnInteraction: false,
       }),
     ]
